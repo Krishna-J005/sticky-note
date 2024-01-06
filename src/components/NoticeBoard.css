@@ -1,0 +1,54 @@
+.container {
+    position: relative;
+    margin: 0;
+}
+
+.note-container {
+    display: flex !important;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-height: 100% !important;
+    max-height: 100% !;
+    width: 100%;
+}
+
+.drag-and-drop-box {
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    cursor: grab;
+}
+
+.drag-and-drop-box.dragging {
+    cursor: grabbing;
+    opacity: 0.7;
+}
+
+.add-button {
+
+    padding: 4px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(223, 223, 218);
+}
+
+.add-button {
+    width: 50px;
+    height: 50px;
+    background-color: #3498db;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+    background-color: #2980b9;
+}

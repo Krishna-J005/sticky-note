@@ -1,5 +1,5 @@
 {
-  "name": "notice-board",
+  "name": "sticky-note",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

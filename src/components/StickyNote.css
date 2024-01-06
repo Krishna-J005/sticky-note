@@ -1,0 +1,91 @@
+.sticky-note {
+  position: relative;
+  min-width: 140px;
+  min-height: 140px;
+  max-width: 150px;
+  max-height: 150px;
+  background-color: #ffff3b;
+  box-shadow: 1px 1px #989292;
+  padding: 8px;
+  margin: 8px;
+  overflow: hidden;
+  cursor: grab;
+}
+
+.editable-text {
+  padding: 8px;
+  margin: 4px;
+  border: none;
+  resize: none;
+  cursor: text;
+}
+
+.display-text {
+  padding: 8px;
+  margin: 4px;
+  border: none;
+  resize: none;
+  cursor: text;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4px;
+  margin: 0 0 8px;
+  height: 16px;
+}
+
+.pin-button {
+  background-color: #db34d5;
+  width: 40px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 16px;
+  border: none;
+}
+
+.unpin-button {
+  background-color: white;
+  width: 48px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  cursor: pointer;
+  border-radius: 16px;
+  border: 2px solid #db34d5;
+}
+
+
+
+
+.delete-button {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  justify-content: center;
+  border: none;
+  color: #d50000;
+  font-weight: bold;
+  background-color: yellow;
+}
+
+.delete-button:hover {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border: none;
+  border-radius: 50%;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(213, 0, 0);
+}

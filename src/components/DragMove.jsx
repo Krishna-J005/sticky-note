@@ -38,6 +38,7 @@ export default function DragMove(props) {
             onPointerDown={handlePointerDown}
             onPointerUp={handlePointerUp}
             onPointerMove={handlePointerMove}
+            onPointerLeave={() => setIsDragging(false)}
             style={style}
             className={className}
         >
@@ -49,5 +50,6 @@ export default function DragMove(props) {
 DragMove.defaultProps = {
     onPointerDown: () => { },
     onPointerUp: () => { },
-    onPointerMove: () => { }
+    onPointerMove: () => { },
+    onPointerLeave: () => {},
 };
